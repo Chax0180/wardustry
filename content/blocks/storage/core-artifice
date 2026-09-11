@@ -1,0 +1,28 @@
+type: CoreBlock
+name: Core: Artifice
+description: The core of the base. Heavily armored. Stores a small amount of items. Once destroyed, the sector is lost.
+requirements: [
+  concrete/500
+  aluminum-truss/500
+  steel/250
+  silicon/250
+  processor-mk1/125
+  wire-spool/10
+]
+armor: 4
+isFirstTier: true
+size: 4
+squareSprite: false
+alwaysUnlocked: true
+unitType: poly
+health: 8500
+itemCapacity: 1000
+unitCapModifier: 16
+category: effect
+
+research: {
+  planet: bellicosa
+  root: true
+  name: Bellicosa
+  requiresUnlock: false
+}
