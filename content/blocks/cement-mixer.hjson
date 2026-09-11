@@ -1,0 +1,51 @@
+type: genericCrafter
+name: Cement Mixer
+description: Grinds up sand and shale to make cement powder.
+size: 2
+health: 180
+itemCapacity: 10
+
+outputItem: cement/1
+consumes: {
+  items: [
+  sand/2
+  shale/3
+  ]
+power: 0.2
+}
+craftEffect: smeltsmoke
+craftTime: 30
+
+research: core-artifice
+
+requirements:[
+steel/20
+aluminum/20
+silicon/10
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawSoftParticles
+      color: 646567
+      color2: 3c3837
+      alpha: 0.7
+      particleSize: 5
+      particles: 15
+      particleRad: -12
+      particleLife: 60
+      rotateScl: 1.2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: loopHGrinder
+ambientSoundVolume: 0.08
+category: crafting
