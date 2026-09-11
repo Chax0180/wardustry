@@ -1,0 +1,10 @@
+name: war
+displayName: Wardustry
+description: Adds an extensive campaign focused on establishing production exports which drive the military conquest of the planet through intense battleground sectors.
+subtitle: also try rusted warfare!
+
+author: Chax0180
+minGameVersion: 136
+version: 0.0
+hidden: false
+hideBrowser: false
