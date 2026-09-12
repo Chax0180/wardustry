@@ -1,0 +1,96 @@
+localizedName: Bellicosa
+description: A mostly barren battleground planet. Export networks are recommended due to resource scarcity.
+alwaysUnlocked: true
+mesh: [
+ {
+    //stone
+    type: NoiseMesh
+    planet: bellicosa
+    divisions: 4
+    seed: 6
+    radius: 0.8
+    color1: 989aa4
+    color2: 6e7080
+    octaves: 4
+    persistence: 1.25
+  }
+ {
+    //ice
+    type: NoiseMesh
+    planet: bellicosa
+    divisions: 5
+    seed: 8
+    radius: 0.8
+    color1: c0d6fa
+    color2: edf4ff
+    octaves: 5
+    persistence: 1
+  }
+  {
+   type: HexSkyMesh
+   planet: bellicosa
+   speed: 0.6
+   radius: 0.067
+   divisions: 6
+   color: bellicosa
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: bellicosa
+   speed: 0.8
+   radius: 0.08
+   divisions: 6
+   color: eafffd40
+   octaves: 1
+   persistence: 0.4
+   scl: 1.2
+   thresh: 0.4
+  }
+  {
+   type: HexSkyMesh
+   planet: bellicosa
+   speed: 0.6
+   radius: 0.024
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+sectorSize: 1
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 0.9
+minZoom: 1
+drawOrbit: true
+orbitRadius: 140
+accessible: true
+updateLighting: false
+sectorSeed: 218
+visible: true
+
+atmosphereColor: 464a61
+iconColor: 464a61
+hasAtmosphere: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+
+allowWaveSimulation: true
+clearSectorOnLose: false
+allowWaves: true
+prebuildBase: false
+defaultCore: core-requeim
+parent: sun
+itemWhitelist: [
+  cement, concrete
+]
