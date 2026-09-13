@@ -2,5 +2,5 @@ name: Iron
 description: A strong metal used to make steel and magnets.
 research: core-artifice
 hardness: 2
-color: fffffff
+color: acaabf
 shownPlanets: [bellicosa]
