@@ -1,0 +1,5 @@
+name: Steel
+description: An extremely useful metal alloy used for a wide variety of applications.
+research: core-artifice
+color: fffffff
+shownPlanets: [bellicosa]
