@@ -1,5 +1,5 @@
 name: Aluminum
 description: A useful, soft metal used in many structural and electrical applications.
 research: core-artifice
-color: fffffff
+color: becdcf
 shownPlanets: [bellicosa]
