@@ -1,0 +1,5 @@
+name: Aluminum Truss
+description: A roll of aluminum wire.
+research: aluminum
+color: fffffff
+shownPlanets: [bellicosa]
