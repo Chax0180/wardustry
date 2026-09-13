@@ -1,5 +1,5 @@
 name: Cement
 description: An intermediate product used to make concrete.
 research: core-artifice
-color: ffffff
+color: b8ada3
 shownPlanets: [bellicosa]
