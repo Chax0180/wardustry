@@ -19,7 +19,6 @@ craftTime: 30
 research: core-artifice
 
 requirements:[
-steel/20
 aluminum/20
 silicon/10
 ]
@@ -32,9 +31,9 @@ drawer: {
     }
     {
       type: DrawSoftParticles
-      color: 646567
-      color2: 3c3837
-      alpha: 0.7
+      color: ccbcaf
+      color2: b8ada3
+      alpha: 1
       particleSize: 5
       particles: 15
       particleRad: -12
@@ -46,6 +45,6 @@ drawer: {
     }
   ]
 }
-ambientSound: loopHGrinder
+ambientSound: loopGrinder
 ambientSoundVolume: 0.08
 category: crafting
