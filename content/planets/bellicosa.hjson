@@ -89,7 +89,7 @@ allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
-defaultCore: core-requeim
+defaultCore: core-artifice
 parent: sun
 itemWhitelist: [
   cement, concrete
