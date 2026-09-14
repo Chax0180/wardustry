@@ -10,6 +10,7 @@ consumes: {
   items: [
   cement/2
   ]
+  liquid: water/0.2
 power: 1.6
 }
 craftEffect: smeltsmoke
