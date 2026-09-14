@@ -1,16 +1,16 @@
 localizedName: Bellicosa
-description: A mostly barren battleground planet. Export networks are recommended due to resource scarcity.
+description: A mostly barren battleground planet. Establishing export networks is highly recommended due to resource scarcity.
 alwaysUnlocked: true
 mesh: [
  {
-    //stone
+    //sand
     type: NoiseMesh
     planet: bellicosa
     divisions: 4
     seed: 6
     radius: 0.8
-    color1: 989aa4
-    color2: 6e7080
+    color1: ccbcaf
+    color2: 9e9288
     octaves: 4
     persistence: 1.25
   }
