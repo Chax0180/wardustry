@@ -10,5 +10,4 @@ research: iron-wall
 requirements: [
   concrete/12
   steel/4
-] 
-researchCostMultiplier: 0.1
+]
