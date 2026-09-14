@@ -1,5 +1,5 @@
 name: Processor Mk.1
-description: Can be encoded with digital instructions. Serves a vital purpose in the electronics of many machines.
+description: Can be encoded with simple digital instructions. Serves a vital purpose in the electronics of many machines.
 research: silicon
 color: ffffff
 shownPlanets: [bellicosa]
