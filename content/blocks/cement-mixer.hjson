@@ -11,7 +11,7 @@ consumes: {
   sand/2
   shale/3
   ]
-power: 0.2
+power: 0.8
 }
 craftEffect: smeltsmoke
 craftTime: 30
