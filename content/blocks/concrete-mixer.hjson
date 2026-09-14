@@ -1,1 +1,49 @@
+type: genericCrafter
+name: Concrete Mixer
+description: Mixes cement with water to form concrete.
+size: 2
+health: 180
+itemCapacity: 10
 
+outputItem: concrete/1
+consumes: {
+  items: [
+  cement/2
+  ]
+power: 1.6
+}
+craftEffect: smeltsmoke
+craftTime: 60
+
+research: core-artifice
+
+requirements:[
+aluminum/20
+silicon/10
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawSoftParticles
+      color: ccbcaf
+      color2: b8ada3
+      alpha: 1
+      particleSize: 5
+      particles: 15
+      particleRad: -12
+      particleLife: 60
+      rotateScl: 1.2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: loopGrinder
+ambientSoundVolume: 0.08
+category: crafting
