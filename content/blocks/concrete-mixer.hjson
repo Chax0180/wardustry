@@ -33,7 +33,7 @@ drawer: {
       type: DrawSoftParticles
       color: ccbcaf
       color2: b8ada3
-      alpha: 1
+      alpha: 0.5
       particleSize: 5
       particles: 15
       particleRad: 6
@@ -42,6 +42,7 @@ drawer: {
     }
     {
       type: DrawRegion
+      suffix: -rotator
       spinSprite: true
       rotateSpeed: 2
     }
