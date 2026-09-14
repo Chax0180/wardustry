@@ -1,5 +1,5 @@
 name: Shale
 description: A stone laden with many useful mineral compounds.
 research: core-artifice
-color: ffffff
+color: 7685aa
 shownPlanets: [bellicosa]
