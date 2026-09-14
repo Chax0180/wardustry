@@ -1,0 +1,14 @@
+type: Wall
+name: Reinforced Concrete Wall
+description: A small wall made of concrete and reinforced with steel. Protects allied structures from damage.
+size: 1
+health: 700
+armor: 6
+category: defense
+squareSprite: true
+research: iron-wall
+requirements: [
+  concrete/12
+  steel/4
+] 
+researchCostMultiplier: 0.1
