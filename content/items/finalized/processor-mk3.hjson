@@ -1,0 +1,5 @@
+name: Processor Mk.3
+description: Can be encoded with highly complex digital instructions. Serves a vital purpose in the electronics of large robots and hyper-advanced machines.
+research: processor-mk2
+color: ff00ff
+shownPlanets: [bellicosa]
