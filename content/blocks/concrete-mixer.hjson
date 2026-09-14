@@ -41,6 +41,11 @@ drawer: {
       rotateScl: 1.2
     }
     {
+      type: DrawRegion
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
       type: DrawDefault
     }
   ]
