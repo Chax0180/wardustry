@@ -1,0 +1,5 @@
+name: Processor Mk.2
+description: Can be encoded with more complex digital instructions than a Mk.1 Processor. Serves a vital purpose in the electronics of robots and advanced machines.
+research: silicon
+color: ffad29
+shownPlanets: [bellicosa]
