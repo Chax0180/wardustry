@@ -1,0 +1,5 @@
+name: Standard Magazine
+description: A strip of regular bullets. Used as turret ammunition or to produce different munitions.
+research: 
+color: 758080
+shownPlanets: [bellicosa]
