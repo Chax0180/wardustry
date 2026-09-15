@@ -1,0 +1,6 @@
+name: Armor Piercing Magazine
+description: A strip of armor piercing bullets. Used as turret ammunition.
+research: standard-magazine
+color: 758080
+shownPlanets: [bellicosa]
+explosiveness: 0.8
