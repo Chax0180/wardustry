@@ -34,4 +34,40 @@ drawer: {
   basePrefix: concrete-
 }
 ammoTypes: {
+standard-magazine:{
+type: BasicBulletType
+      speed: 10
+      lifetime: 30
+      damage: 11
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+}
+ap-magazine:{
+type: BasicBulletType
+      speed: 10
+      lifetime: 30
+      damage: 17
+      armorMultiplier: 0.6
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+}
+smart-magazine:{
+type: BasicBulletType
+      speed: 7.5
+      lifetime: 30
+      damage: 15
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+      homingPower: 0.12
+      homingDelay: 15
+}
 }
