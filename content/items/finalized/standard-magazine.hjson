@@ -3,3 +3,4 @@ description: A strip of regular bullets. Used as turret ammunition or to produce
 research: 
 color: 758080
 shownPlanets: [bellicosa]
+explosiveness: 0.8
