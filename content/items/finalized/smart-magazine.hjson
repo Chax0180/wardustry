@@ -1,0 +1,6 @@
+name: Smart Magazine
+description: A strip of smart bullets which home in on enemies. Used as turret ammunition.
+research: ap-magazine
+color: 758080
+shownPlanets: [bellicosa]
+explosiveness: 0.8
