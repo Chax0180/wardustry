@@ -1,0 +1,37 @@
+type: ItemTurret
+name: Gun Turret Mk.1
+description: Fires standard bullets at enemy targets.
+size: 2
+category: turret
+research: concrete-wall-large
+squareSprite: false
+requirements: [
+  concrete/48
+  aluminum/20
+  aluminum-truss/10
+  processor-mk1/5
+  steel/16
+]
+range: 180
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+coolantMultiplier: 10
+
+reload: 12
+shootSound: shoot
+researchCostMultiplier: 0.3
+velocityRnd: 0.091
+inaccuracy: 2
+recoils: 2
+
+outlineColor: 464f4f
+drawer: {
+  type: DrawTurret
+  basePrefix: concrete-
+}
+ammoTypes: {
+}
