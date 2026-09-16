@@ -13,3 +13,20 @@ requirements:[
 concrete/20
 aluminum/16
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: molten-steel
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
