@@ -3,7 +3,7 @@ type: MultiCrafter
 name: Small Foundry Heart
 description: Melts down certaian metals for use in alloying recipes.
 size: 2
-health: 800
+health: 1200
 armor: 2
 itemCapacity: 10
 liquidcapacity: 40
