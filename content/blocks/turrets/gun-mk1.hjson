@@ -44,6 +44,9 @@ type: BasicBulletType
       height: 9
       trailLength: 10
       trailWidth: 1
+      frontColor: ff795e
+      backColor: c85c51
+      trailColor: a33d34
 }
 ap-magazine:{
 type: BasicBulletType
@@ -56,6 +59,9 @@ type: BasicBulletType
       height: 9
       trailLength: 10
       trailWidth: 1
+      frontColor: ffad29
+      backColor: db9b35
+      trailColor: ba6622
 }
 smart-magazine:{
 type: BasicBulletType
@@ -68,6 +74,9 @@ type: BasicBulletType
       trailLength: 10
       trailWidth: 1
       homingPower: 0.12
-      homingDelay: 15
+      homingDelay: 5
+      frontColor: 1900ff
+      backColor: 2516c9
+      trailColor: 3d358c
 }
 }
