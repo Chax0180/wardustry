@@ -1,0 +1,6 @@
+name: Blast Powder
+description: Finely ground explosive compound.
+research: sand
+color: 758080
+shownPlanets: [bellicosa]
+explosiveness: 0.8
