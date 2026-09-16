@@ -8,7 +8,7 @@ outputItem: silicon/1
 consumes: {
   liquid: molten-silicon/0.05
 }
-craftTime: 240
+craftTime: 120
 requirements:[
 concrete/20
 aluminum/16
