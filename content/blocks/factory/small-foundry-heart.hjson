@@ -6,7 +6,7 @@ size: 2
 health: 1200
 armor: 2
 itemCapacity: 10
-liquidcapacity: 24
+liquidcapacity: 10
 requirements:[
 concrete/64
 iron/80
