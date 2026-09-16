@@ -1,7 +1,7 @@
 type: liquid
 name: Molten Steel
 description: Hot molten steel. Serves little purpose other than to be cooled into bars.
-color: ffad29
-lightColor: ffad29
+color: ff795e
+lightColor: ff795e
 research: iron
 temperature: 5
