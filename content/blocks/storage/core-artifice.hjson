@@ -9,7 +9,7 @@ requirements: [
   processor-mk1/125
   wire-spool/10
 ]
-armor: 4
+armor: 10
 isFirstTier: true
 size: 4
 squareSprite: false
