@@ -6,12 +6,11 @@ size: 2
 health: 1200
 armor: 2
 itemCapacity: 10
-liquidcapacity: 40
+liquidcapacity: 24
 requirements:[
 concrete/64
 iron/80
 aluminum/60
-silicon/24
 ]
 category: crafting
 conductivePower: true
@@ -57,3 +56,26 @@ jsonRecipes: [
         unlocked: true
     }
 ]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: molten-silicon
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: molten-steel
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
