@@ -36,12 +36,24 @@ jsonRecipes: [
         input: {
             items: [iron/3, coal/1]
             liquids: [oil]
-            power: 1
+            power: 2
         }
         output: {
             liquids: [molten-steel/0.2]
         }
         craftTime: 60
+        unlocked: true
+    }
+    {
+        name: silicon
+        input: {
+            items: [sand/10, coal/3]
+            power: 2
+        }
+        output: {
+            liquids: [molten-silicon/0.2]
+        }
+        craftTime: 90
         unlocked: true
     }
 ]
