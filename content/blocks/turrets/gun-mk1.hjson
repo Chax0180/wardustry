@@ -2,7 +2,7 @@ type: ItemTurret
 name: Gun Turret Mk.1
 description: Fires standard bullets at enemy targets and protects allied structures from damage.
 size: 2
-health: 2800
+health: 2000
 armor: 6
 
 category: turret
