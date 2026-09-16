@@ -8,7 +8,7 @@ outputItem: steel/1
 consumes: {
   liquid: molten-steel/0.05
 }
-craftTime: 300
+craftTime: 150
 requirements:[
 concrete/20
 aluminum/16
