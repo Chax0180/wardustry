@@ -39,7 +39,7 @@ jsonRecipes: [
             power: 1
         }
         output: {
-            items: [steel/1]
+            liquids: [molten-steel/0.2]
         }
         craftTime: 60
         unlocked: true
