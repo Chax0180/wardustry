@@ -1,0 +1,7 @@
+type: liquid
+name: Molten Silicon
+description: Hot molten silicon. Serves little purpose other than to be cooled into boules.
+color: ffad29
+lightColor: ffad29
+research: sand
+temperature: 5
