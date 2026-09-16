@@ -1,0 +1,7 @@
+type: liquid
+name: Molten Steel
+description: Hot molten steel. Serves little purpose other than to be cooled into bars.
+color: 8175a5
+lightColor: 9c88c3
+research: iron
+temperature: 5
