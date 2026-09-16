@@ -3,4 +3,4 @@ name: Steel Cooling Mold
 description: Cools down molten steel into bars.
 size: 1
 health: 300
-
+armor: 2
