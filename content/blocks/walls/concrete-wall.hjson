@@ -2,7 +2,7 @@ type: Wall
 name: Reinforced Concrete Wall
 description: A small wall made of concrete and reinforced with steel. Protects allied structures from damage.
 size: 1
-health: 700
+health: 500
 armor: 6
 category: defense
 squareSprite: true
