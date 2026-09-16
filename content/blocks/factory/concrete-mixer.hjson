@@ -19,7 +19,8 @@ craftTime: 60
 research: core-artifice
 
 requirements:[
-aluminum/20
+aluminum/40
+iron/40
 silicon/10
 ]
 drawer: {
