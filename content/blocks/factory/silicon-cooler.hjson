@@ -22,7 +22,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      padding: 3
+      padding: 2
       drawLiquid: molten-silicon
     }
     {
