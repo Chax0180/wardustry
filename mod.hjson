@@ -8,3 +8,6 @@ minGameVersion: 136
 version: 0.0
 hidden: false
 hideBrowser: false
+dependencies:[
+multicrafter
+]
