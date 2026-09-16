@@ -1,0 +1,47 @@
+type: MultiCrafter
+  
+name: Small Foundry Heart
+description: Melts down certaian metals for use in alloying recipes.
+size: 2
+health: 800
+armor: 2
+itemCapacity: 10
+liquidcapacity: 40
+requirements:[
+concrete/64
+iron/80
+aluminum/60
+silicon/24
+]
+category: crafting
+conductivePower: true
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: steel
+        input: {
+            items: [iron/3, coal/1]
+            liquids: [oil]
+            power: 1
+        }
+        output: {
+            items: [steel/1]
+        }
+        craftTime: 60
+        unlocked: true
+    }
+]
