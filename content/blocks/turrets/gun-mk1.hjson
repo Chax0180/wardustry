@@ -32,6 +32,7 @@ inaccuracy: 2
 recoils: 2
 
 outlineColor: 464f4f
+maxAmmo: 20
 drawer: {
   type: DrawTurret
   basePrefix: concrete-
@@ -41,7 +42,7 @@ standard-magazine:{
 type: BasicBulletType
       speed: 10
       lifetime: 30
-      damage: 11
+      damage: 22
       trailChance: 1
       width: 7
       height: 9
@@ -50,12 +51,13 @@ type: BasicBulletType
       frontColor: ff795e
       backColor: c85c51
       trailColor: a33d34
+ammoMultiplier: 10
 }
 ap-magazine:{
 type: BasicBulletType
       speed: 10
       lifetime: 30
-      damage: 17
+      damage: 30
       armorMultiplier: 0.6
       trailChance: 1
       width: 7
@@ -65,12 +67,13 @@ type: BasicBulletType
       frontColor: ffad29
       backColor: db9b35
       trailColor: ba6622
+ammoMultiplier: 10
 }
 smart-magazine:{
 type: BasicBulletType
       speed: 7.5
       lifetime: 30
-      damage: 15
+      damage: 26
       trailChance: 1
       width: 7
       height: 9
@@ -81,5 +84,6 @@ type: BasicBulletType
       frontColor: 1900ff
       backColor: 2516c9
       trailColor: 3d358c
+ammoMultiplier: 10
 }
 }
