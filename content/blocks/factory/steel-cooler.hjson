@@ -4,6 +4,8 @@ description: Cools down molten steel into bars.
 size: 1
 health: 300
 armor: 2
+liquidCapacity: 10
+
 outputItem: steel/1
 consumes: {
   liquid: molten-steel/0.05
