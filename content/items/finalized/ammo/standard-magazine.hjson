@@ -1,6 +1,6 @@
 name: Standard Magazine
 description: A strip of regular bullets. Used as turret ammunition or to produce different munitions.
 research: blast-powder
-color: 758080
+color: a33d34
 shownPlanets: [bellicosa]
 explosiveness: 0.8
