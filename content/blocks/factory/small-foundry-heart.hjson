@@ -35,7 +35,7 @@ jsonRecipes: [
         name: steel
         input: {
             items: [iron/3, coal/1]
-            liquids: [oil]
+            liquids: [oil/0.4]
             power: 2
         }
         output: {
