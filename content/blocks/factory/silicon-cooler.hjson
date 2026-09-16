@@ -1,0 +1,11 @@
+type: genericCrafter
+name: Steel Cooling Mold
+description: Cools down molten silicon into boules.
+size: 1
+health: 300
+armor: 2
+outputItem: silicon/1
+consumes: {
+  liquid: molten-silicon/0.05
+}
+craftTime: 240
