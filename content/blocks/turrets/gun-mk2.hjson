@@ -15,7 +15,7 @@ requirements: [
   processor-mk2/5
   steel/24
 ]
-range: 260
+range: 280
 coolant: {
   type: ConsumeCoolant
   allowGas: true
