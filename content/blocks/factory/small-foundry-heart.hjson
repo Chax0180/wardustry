@@ -80,3 +80,4 @@ drawer: {
   ]
 }
 ambientSound: loopSmelter
+ambientSoundVolume: 0.4
