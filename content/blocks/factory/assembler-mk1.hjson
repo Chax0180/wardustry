@@ -21,6 +21,7 @@ jsonRecipes: [
         name: am1-aluminum-truss
         input: {
             items: [aluminum/5]
+            liquids: [water/0.2]
             power: 1
         }
         output: {
