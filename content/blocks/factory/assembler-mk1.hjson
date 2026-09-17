@@ -1,6 +1,6 @@
 type: MultiCrafter
   
-name: Assembler Mk.1
+name: Assembler
 description: A multi-purpose machine which can print and assemble certain components.
 size: 3
 health: 800
@@ -18,6 +18,18 @@ conductivePower: true
 # The library specific variables
 jsonRecipes: [
     {
+        name: am1-aluminum-wire
+        input: {
+            items: [aluminum/5]
+            power: 0.5
+        }
+        output: {
+            items: [wire-spool/4]
+        }
+        craftTime: 120
+        unlocked: true
+    }
+    {
         name: am1-aluminum-truss
         input: {
             items: [aluminum/5]
@@ -26,6 +38,42 @@ jsonRecipes: [
         }
         output: {
             items: [aluminum-truss/2]
+        }
+        craftTime: 180
+        unlocked: true
+    }
+    {
+        name: am1-standard-magazine
+        input: {
+            items: [aluminum/3, steel/1, blast-powder/2]
+            power: 1
+        }
+        output: {
+            items: [standard-magazine/1]
+        }
+        craftTime: 240
+        unlocked: true
+    }
+    {
+        name: am1-processor-mk1
+        input: {
+            items: [silicon/5, wire-spool/1]
+            power: 2
+        }
+        output: {
+            items: [processor-mk1/1]
+        }
+        craftTime: 300
+        unlocked: true
+    }
+    {
+        name: am1-smart-magazine
+        input: {
+            items: [standard-magazine/1, processor-mk1/1]
+            power: 1.2
+        }
+        output: {
+            items: [smart-magazine/1]
         }
         craftTime: 300
         unlocked: true
