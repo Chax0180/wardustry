@@ -15,7 +15,7 @@ requirements: [
   processor-mk1/5
   steel/16
 ]
-range: 260
+range: 280
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -51,6 +51,7 @@ type: BasicBulletType
       frontColor: ff795e
       backColor: c85c51
       trailColor: a33d34
+      hitColor: ff795e
 ammoMultiplier: 10
       hitEffect: none
 }
@@ -68,6 +69,7 @@ type: BasicBulletType
       frontColor: ffad29
       backColor: db9b35
       trailColor: ba6622
+      hitColor: ffad29
 ammoMultiplier: 10
       hitEffect: none
 }
@@ -86,8 +88,9 @@ type: BasicBulletType
       frontColor: 1900ff
       backColor: 2516c9
       trailColor: 3d358c
+      hitColor: 1900ff
 ammoMultiplier: 10
       hitEffect: none
-      rangeMultiplier: 0.6
+      rangeChange: -80
 }
 }
