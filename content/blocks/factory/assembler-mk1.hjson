@@ -31,28 +31,15 @@ drawer: {
 # The library specific variables
 jsonRecipes: [
     {
-        name: steel
+        name: am1-aluminum-truss
         input: {
-            items: [iron/3, coal/1]
-            liquids: [oil/0.4]
-            power: 2
+            items: [aluminum/5]
+            power: 1
         }
         output: {
-            liquids: [molten-steel/0.2]
+            items: [aluminum-truss/2]
         }
-        craftTime: 60
-        unlocked: true
-    }
-    {
-        name: silicon
-        input: {
-            items: [sand/10, coal/3]
-            power: 2
-        }
-        output: {
-            liquids: [molten-silicon/0.2]
-        }
-        craftTime: 90
+        craftTime: 600
         unlocked: true
     }
 ]
@@ -73,14 +60,14 @@ drawer: {
       type: DrawPistons
       suffix: -laserThing
       sinMag: 2
-      sinScl: 6
+      sinScl: 0.1
       sides: 1
     }
     {
       type: DrawPistons
       suffix: -printer
       sinMag: 24
-      sinScl: 6
+      sinScl: 20
       sides: 1
     }
     {
