@@ -79,7 +79,7 @@ drawer: {
     {
       type: DrawPistons
       suffix: -printer
-      sinMag: 2
+      sinMag: 24
       sinScl: 6
       sides: 1
     }
