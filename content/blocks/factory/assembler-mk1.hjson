@@ -66,13 +66,22 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      padding: 3
-      drawLiquid: molten-silicon
+      padding: 2
+      drawLiquid: water
     }
     {
-      type: DrawLiquidTile
-      padding: 3
-      drawLiquid: molten-steel
+      type: DrawPistons
+      suffix: -laserThing
+      sinMag: 2
+      sinScl: 6
+      sides: 1
+    }
+    {
+      type: DrawPistons
+      suffix: -printer
+      sinMag: 2
+      sinScl: 6
+      sides: 1
     }
     {
       type: DrawDefault
