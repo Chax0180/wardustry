@@ -46,7 +46,7 @@ jsonRecipes: [
     {
         name: sfh-silicon
         input: {
-            items: [sand/10, coal/3]
+            items: [sand/5, coal/3]
             power: 2
         }
         output: {
