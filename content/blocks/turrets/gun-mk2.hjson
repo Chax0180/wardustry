@@ -24,8 +24,12 @@ coolant: {
 }
 coolantMultiplier: 10
 
-reload: 15
+reload: 5
 shootSound: shootGunTurret
+shoot:{
+barrels: 2
+type: shootAlternate
+}
 researchCostMultiplier: 0.3
 velocityRnd: 0.091
 inaccuracy: 2
