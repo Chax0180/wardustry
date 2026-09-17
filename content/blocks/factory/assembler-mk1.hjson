@@ -47,8 +47,8 @@ drawer: {
     {
       type: DrawRegion
       suffix: -spinner1
-      x: 1.6
-      y: -2.85
+      x: 1.54
+      y: -2.8
       spinSprite: true
       rotateSpeed: 1
     }
@@ -56,7 +56,7 @@ drawer: {
       type: DrawRegion
       suffix: -spinner2
       x: 7
-      y: -2.85
+      y: -2.8
       spinSprite: true
       rotateSpeed: 0.5
     }
