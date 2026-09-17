@@ -1,0 +1,81 @@
+type: MultiCrafter
+  
+name: Assembler Mk.1
+description: A multi-purpose machine which can print and assemble certain components.
+size: 3
+health: 800
+itemCapacity: 20
+liquidcapacity: 40
+requirements:[
+steel/80
+iron/40
+aluminum/200
+silicon/120
+]
+category: crafting
+conductivePower: true
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: steel
+        input: {
+            items: [iron/3, coal/1]
+            liquids: [oil/0.4]
+            power: 2
+        }
+        output: {
+            liquids: [molten-steel/0.2]
+        }
+        craftTime: 60
+        unlocked: true
+    }
+    {
+        name: silicon
+        input: {
+            items: [sand/10, coal/3]
+            power: 2
+        }
+        output: {
+            liquids: [molten-silicon/0.2]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: molten-silicon
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: molten-steel
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
