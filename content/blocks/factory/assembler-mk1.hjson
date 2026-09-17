@@ -142,3 +142,4 @@ drawer: {
   ]
 }
 ambientSound: loopBuild
+ambientSoundVolume: 0.4
