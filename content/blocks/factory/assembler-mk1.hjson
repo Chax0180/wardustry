@@ -46,6 +46,7 @@ jsonRecipes: [
         name: am1-standard-magazine
         input: {
             items: [aluminum/3, steel/1, blast-powder/2]
+            liquids: [water/0.2]
             power: 1
         }
         output: {
@@ -58,6 +59,7 @@ jsonRecipes: [
         name: am1-processor-mk1
         input: {
             items: [silicon/5, wire-spool/1]
+            liquids: [water/0.4]
             power: 2
         }
         output: {
@@ -82,6 +84,7 @@ jsonRecipes: [
         name: am1-processor-mk2
         input: {
             items: [silicon/5, processor-mk1/2, wire-spool/1]
+            liquids: [water/0.8]
             power: 2
         }
         output: {
