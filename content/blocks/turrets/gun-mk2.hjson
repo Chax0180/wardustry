@@ -1,0 +1,93 @@
+type: ItemTurret
+name: Gun Turret Mk.1
+description: Fires standard bullets at enemy targets and protects allied structures from damage. Fires faster than a mk.1 gun turret.
+size: 2
+health: 2000
+armor: 6
+
+category: turret
+research: gun-mk1
+squareSprite: false
+requirements: [
+  concrete/48
+  aluminum/40
+  aluminum-truss/10
+  processor-mk2/5
+  steel/24
+]
+range: 260
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+coolantMultiplier: 10
+
+reload: 15
+shootSound: shootGunTurret
+researchCostMultiplier: 0.3
+velocityRnd: 0.091
+inaccuracy: 2
+recoils: 2
+
+outlineColor: 464f4f
+maxAmmo: 20
+drawer: {
+  type: DrawTurret
+  basePrefix: concrete-
+}
+ammoTypes: {
+standard-magazine:{
+type: BasicBulletType
+      speed: 10
+      lifetime: 30
+      damage: 22
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+      frontColor: ff795e
+      backColor: c85c51
+      trailColor: a33d34
+ammoMultiplier: 10
+      hitEffect: none
+}
+ap-magazine:{
+type: BasicBulletType
+      speed: 10
+      lifetime: 30
+      damage: 30
+      armorMultiplier: 0.6
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+      frontColor: ffad29
+      backColor: db9b35
+      trailColor: ba6622
+ammoMultiplier: 10
+      hitEffect: none
+}
+smart-magazine:{
+type: BasicBulletType
+      speed: 7.5
+      lifetime: 30
+      damage: 26
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+      homingPower: 0.12
+      homingDelay: 5
+      frontColor: 1900ff
+      backColor: 2516c9
+      trailColor: 3d358c
+ammoMultiplier: 10
+      hitEffect: none
+      rangeMultiplier: 0.6
+}
+}
