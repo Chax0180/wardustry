@@ -58,9 +58,9 @@ drawer: {
     }
     {
       type: DrawPistons
-      suffix: -laserThing
+      suffix: -laserthing
       sinMag: 2
-      sinScl: 0.1
+      sinScl: 1
       sides: 1
     }
     {
