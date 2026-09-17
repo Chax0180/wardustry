@@ -78,6 +78,18 @@ jsonRecipes: [
         craftTime: 300
         unlocked: true
     }
+    {
+        name: am1-processor-mk2
+        input: {
+            items: [silicon/5, processor-mk1/2, wire-spool/1]
+            power: 2
+        }
+        output: {
+            items: [processor-mk2/1]
+        }
+        craftTime: 600
+        unlocked: true
+    }
 ]
 
 drawer: {
