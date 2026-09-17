@@ -31,7 +31,7 @@ drawer: {
 # The library specific variables
 jsonRecipes: [
     {
-        name: steel
+        name: sfh-steel
         input: {
             items: [iron/3, coal/1]
             liquids: [oil/0.4]
@@ -44,7 +44,7 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: silicon
+        name: sfh-silicon
         input: {
             items: [sand/10, coal/3]
             power: 2
