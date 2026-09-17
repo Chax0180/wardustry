@@ -15,19 +15,6 @@ silicon/120
 category: crafting
 conductivePower: true
 
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
-
 # The library specific variables
 jsonRecipes: [
     {
