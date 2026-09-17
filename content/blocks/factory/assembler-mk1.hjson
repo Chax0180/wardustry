@@ -54,8 +54,9 @@ drawer: {
     {
       type: DrawPistons
       suffix: -printer
+      x: -6
       angleOffset: 90
-      sinMag: 24
+      sinMag: 20
       sinScl: 60
       sides: 1
     }
