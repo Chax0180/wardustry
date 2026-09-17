@@ -55,8 +55,9 @@ type: BasicBulletType
       frontColor: ff795e
       backColor: c85c51
       trailColor: a33d34
+      hitColor: ff795e
 ammoMultiplier: 10
-      hitEffect: none
+      hitEffect: hitBulletColor
 }
 ap-magazine:{
 type: BasicBulletType
@@ -72,8 +73,9 @@ type: BasicBulletType
       frontColor: ffad29
       backColor: db9b35
       trailColor: ba6622
+      hitColor: ffad29
 ammoMultiplier: 10
-      hitEffect: none
+      hitEffect: hitBulletColor
 }
 smart-magazine:{
 type: BasicBulletType
@@ -90,8 +92,9 @@ type: BasicBulletType
       frontColor: 1900ff
       backColor: 2516c9
       trailColor: 3d358c
+      hitColor: 1900ff
 ammoMultiplier: 10
-      hitEffect: none
-      rangeMultiplier: 0.6
+      hitEffect: hitBulletColor
+      rangeChange: -80
 }
 }
