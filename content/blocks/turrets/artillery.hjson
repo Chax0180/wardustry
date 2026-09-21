@@ -1,0 +1,58 @@
+type: ItemTurret
+name: Artillery
+description: Fires shells at enemy targets over a massive range. Careful control is advised to prevent ammo from being wasted.
+size: 3
+health: 4500
+armor: 6
+
+category: turret
+research: gun-mk2
+squareSprite: false
+requirements: [
+  concrete/108
+  aluminum/400
+  aluminum-truss/20
+  processor-mk3/20
+  steel/120
+  wire-spool/48
+]
+range: 3230
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.4
+}
+coolantMultiplier: 10
+
+reload: 1800
+shootSound: shootArtillery
+researchCostMultiplier: 0.8
+inaccuracy: 0
+
+outlineColor: 464f4f
+maxAmmo: 20
+drawer: {
+  type: DrawTurret
+  basePrefix: concrete-
+}
+ammoTypes: {
+standard-shell:{
+type: ArtilleryBulletType
+      speed: 20
+      lifetime: 30
+      damage: 2500
+      splashDamage: 1000
+      trailChance: 1
+      width: 9
+      height: 15
+      trailLength: 20
+      trailWidth: 3
+      frontColor: ff795e
+      backColor: c85c51
+      trailColor: a33d34
+      hitColor: ff795e
+ammoMultiplier: 1
+      hitEffect: hitBulletColor
+}
+}
