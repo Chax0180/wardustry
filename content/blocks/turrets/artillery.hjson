@@ -32,7 +32,7 @@ coolantMultiplier: 10
 reload: 1800
 shootSound: shootArtilleryWardustry
 researchCostMultiplier: 0.8
-inaccuracy: 0
+inaccuracy: 5
 
 outlineColor: 464f4f
 maxAmmo: 20
@@ -46,13 +46,32 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveY: -12
+      moveY: -5
       y: 15
     }
   ]
 }
 ammoTypes: {
 standard-shell:{
+type: ArtilleryBulletType
+      speed: 10
+      damage: 2500
+      splashDamage: 1000
+      splashDamageRadius: 46
+      trailChance: 1
+      width: 9
+      height: 15
+      trailLength: 20
+      trailWidth: 3
+      frontColor: ff795e
+      backColor: c85c51
+      trailColor: a33d34
+      hitColor: ff795e
+ammoMultiplier: 1
+      hitEffect: massiveExplosion
+}
+ammoTypes: {
+smart-shell:{
 type: ArtilleryBulletType
       speed: 10
       damage: 2500
