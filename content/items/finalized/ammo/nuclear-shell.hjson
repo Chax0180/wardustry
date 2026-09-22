@@ -1,0 +1,6 @@
+name: Nuclear Shell
+description: A single shell for use in artillery cannons. Produces a massive explosion.
+research: smart-shell
+color: a33d34
+shownPlanets: [bellicosa]
+explosiveness: 4.8
