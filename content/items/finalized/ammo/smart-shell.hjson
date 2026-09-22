@@ -1,0 +1,6 @@
+name: Smart Shell
+description: A single shell for use in artillery cannons. Homes in on enemy targets.
+research: standard-shell
+color: a33d34
+shownPlanets: [bellicosa]
+explosiveness: 1.6
