@@ -69,9 +69,31 @@ type: ArtilleryBulletType
       hitColor: ff795e
 ammoMultiplier: 1
       hitEffect: massiveExplosion
+      despawnSound: explosion
 }
 ammoTypes: {
 smart-shell:{
+type: ArtilleryBulletType
+      speed: 10
+      damage: 2500
+      splashDamage: 1000
+      splashDamageRadius: 46
+      trailChance: 1
+      width: 9
+      height: 15
+      trailLength: 20
+      trailWidth: 3
+      frontColor: 1900ff
+      backColor: 3d358c
+      trailColor: 2516c9
+      hitColor: 1900ff
+ammoMultiplier: 1
+      hitEffect: massiveExplosion
+      homingPower: 0.12
+      homingDelay: 5
+      despawnSound: explosion
+}
+nuclear-shell:{
 type: ArtilleryBulletType
       speed: 10
       damage: 2500
@@ -87,6 +109,9 @@ type: ArtilleryBulletType
       trailColor: a33d34
       hitColor: ff795e
 ammoMultiplier: 1
-      hitEffect: massiveExplosion
+      hitEffect: titanExplosiion
+      homingPower: 0.12
+      homingDelay: 5
+      despawnSound: explosionReactor
 }
 }
