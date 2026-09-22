@@ -3,4 +3,4 @@ description: A single shell for use in artillery cannons.
 research: ap-magazine
 color: a33d34
 shownPlanets: [bellicosa]
-explosiveness: 0.8
+explosiveness: 1.6
