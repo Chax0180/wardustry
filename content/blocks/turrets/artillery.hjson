@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Artillery
-description: Fires shells at enemy targets over a massive range. Careful control is advised to prevent ammo from being wasted on distant structures.
+description: Fires shells at enemy targets over a massive range. Careful control is advised to prevent ammo from being wasted on large enemy structures.
 size: 3
 health: 4500
 armor: 6
@@ -55,8 +55,7 @@ ammoTypes: {
 standard-shell:{
 type: ArtilleryBulletType
       speed: 10
-      damage: 2500
-      splashDamage: 1000
+      splashDamage: 3650
       splashDamageRadius: 46
       trailChance: 1
       width: 9
@@ -75,8 +74,7 @@ ammoTypes: {
 smart-shell:{
 type: ArtilleryBulletType
       speed: 10
-      damage: 2500
-      splashDamage: 1000
+      splashDamage: 3650
       splashDamageRadius: 46
       trailChance: 1
       width: 9
@@ -96,8 +94,7 @@ ammoMultiplier: 1
 nuclear-shell:{
 type: ArtilleryBulletType
       speed: 10
-      damage: 2500
-      splashDamage: 1000
+      splashDamage: 16800
       splashDamageRadius: 46
       trailChance: 1
       width: 9
