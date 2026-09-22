@@ -70,7 +70,6 @@ ammoMultiplier: 1
       hitEffect: massiveExplosion
       despawnSound: explosion
 }
-ammoTypes: {
 smart-shell:{
 type: ArtilleryBulletType
       speed: 10
