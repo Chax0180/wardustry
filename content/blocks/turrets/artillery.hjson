@@ -105,7 +105,7 @@ type: ArtilleryBulletType
       trailColor: a33d34
       hitColor: ff795e
 ammoMultiplier: 1
-      hitEffect: titanExplosiion
+      hitEffect: titanExplosion
       homingPower: 0.12
       homingDelay: 5
       despawnSound: explosionReactor
