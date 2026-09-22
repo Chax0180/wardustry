@@ -35,6 +35,17 @@ maxAmmo: 20
 drawer: {
   type: DrawTurret
   basePrefix: concrete-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -12
+      y: 15
+    }
+  ]
 }
 ammoTypes: {
 standard-shell:{
