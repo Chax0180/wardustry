@@ -23,6 +23,10 @@ coolant: {
   allowLiquid: true
   amount: 0.4
 }
+consumes: {
+  power: 16
+}
+rotateSpeed: 3
 coolantMultiplier: 10
 
 reload: 1800
