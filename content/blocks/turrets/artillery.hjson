@@ -107,8 +107,10 @@ type: ArtilleryBulletType
 ammoMultiplier: 1
       hitEffect: {
 type: MultiEffect
+effects:[
 {type: titanSmokeLarge}
 {type: titanExplosionLarge}
+]
 }
       homingPower: 0.12
       homingDelay: 5
