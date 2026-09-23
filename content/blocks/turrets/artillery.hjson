@@ -45,11 +45,13 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       mirror: false
-      top: false
-      under: true
-      progress: recoil
+      progress: 
       moveY: -15
       y: 15
+    }
+    {
+      type: DrawDefault
+      top: false
     }
   ]
 }
