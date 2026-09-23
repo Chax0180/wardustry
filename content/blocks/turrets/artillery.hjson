@@ -100,10 +100,10 @@ type: ArtilleryBulletType
       height: 15
       trailLength: 20
       trailWidth: 3
-      frontColor: ff795e
-      backColor: c85c51
-      trailColor: a33d34
-      hitColor: ff795e
+      frontColor: 00ff0d
+      backColor: 418c43
+      trailColor: 12b51a
+      hitColor: 00ff0d
 ammoMultiplier: 1
       hitEffect: titanExplosion
       homingPower: 0.12
