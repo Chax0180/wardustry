@@ -55,7 +55,7 @@ ammoTypes: {
 standard-shell:{
 type: ArtilleryBulletType
       speed: 10
-      splashDamage: 3650
+      splashDamage: 620
       splashDamageRadius: 46
       trailChance: 1
       width: 9
@@ -73,7 +73,7 @@ ammoMultiplier: 1
 smart-shell:{
 type: ArtilleryBulletType
       speed: 10
-      splashDamage: 3650
+      splashDamage: 580
       splashDamageRadius: 46
       trailChance: 1
       width: 9
@@ -93,8 +93,8 @@ ammoMultiplier: 1
 nuclear-shell:{
 type: ArtilleryBulletType
       speed: 10
-      splashDamage: 16800
-      splashDamageRadius: 46
+      splashDamage: 3650
+      splashDamageRadius: 80
       trailChance: 1
       width: 9
       height: 15
