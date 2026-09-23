@@ -33,6 +33,7 @@ reload: 1800
 shootSound: shootArtilleryWardustry
 researchCostMultiplier: 0.8
 inaccuracy: 5
+shootY: 5
 
 outlineColor: 464f4f
 maxAmmo: 20
@@ -44,9 +45,9 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       mirror: false
-      under: true
+      top: false
       progress: recoil
-      moveY: -5
+      moveY: -15
       y: 15
     }
   ]
