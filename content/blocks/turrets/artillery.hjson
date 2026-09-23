@@ -109,9 +109,11 @@ ammoMultiplier: 1
 type: MultiEffect
 effects:[
 {type: WrapEffect
-effect: titanSmokeLarge}
+effect: titanSmokeLarge
+color: acaabf}
 {type: WrapEffect
-effect: titanExplosionLarge}
+effect: titanExplosionLarge
+color: 00ff0d}
 ]
 }
       homingPower: 0.12
