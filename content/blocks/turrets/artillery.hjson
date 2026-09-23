@@ -49,10 +49,6 @@ drawer: {
       moveY: -15
       y: 15
     }
-    {
-      type: DrawDefault
-      top: false
-    }
   ]
 }
 ammoTypes: {
