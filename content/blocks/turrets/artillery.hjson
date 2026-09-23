@@ -61,7 +61,7 @@ type: ArtilleryBulletType
       width: 9
       height: 15
       trailLength: 20
-      trailWidth: 3
+      trailWidth: 2.5
       frontColor: ff795e
       backColor: c85c51
       trailColor: a33d34
@@ -79,10 +79,10 @@ type: ArtilleryBulletType
       width: 9
       height: 15
       trailLength: 20
-      trailWidth: 3
+      trailWidth: 2.5
       frontColor: 1900ff
-      backColor: 3d358c
-      trailColor: 2516c9
+      backColor: 2516c9
+      trailColor: 3d358c
       hitColor: 1900ff
 ammoMultiplier: 1
       hitEffect: massiveExplosion
@@ -99,7 +99,7 @@ type: ArtilleryBulletType
       width: 9
       height: 15
       trailLength: 20
-      trailWidth: 3
+      trailWidth: 2.5
       frontColor: 00ff0d
       backColor: 418c43
       trailColor: 12b51a
