@@ -55,7 +55,7 @@ ammoTypes: {
 standard-shell:{
 type: ArtilleryBulletType
       speed: 10
-      splashDamage: 620
+      splashDamage: 1920
       splashDamageRadius: 46
       trailChance: 1
       width: 9
@@ -73,7 +73,7 @@ ammoMultiplier: 1
 smart-shell:{
 type: ArtilleryBulletType
       speed: 10
-      splashDamage: 580
+      splashDamage: 1860
       splashDamageRadius: 46
       trailChance: 1
       width: 9
@@ -93,7 +93,7 @@ ammoMultiplier: 1
 nuclear-shell:{
 type: ArtilleryBulletType
       speed: 10
-      splashDamage: 3650
+      splashDamage: 5650
       splashDamageRadius: 80
       trailChance: 1
       width: 9
@@ -105,7 +105,11 @@ type: ArtilleryBulletType
       trailColor: 12b51a
       hitColor: 00ff0d
 ammoMultiplier: 1
-      hitEffect: titanSmokeLarge
+      hitEffect: {
+type: MultiEffect
+{type: titanSmokeLarge}
+{type: titanExplosionLarge}
+}
       homingPower: 0.12
       homingDelay: 5
       despawnSound: explosionReactor
