@@ -46,6 +46,7 @@ drawer: {
       suffix: -barrel
       mirror: false
       top: false
+      under: true
       progress: recoil
       moveY: -15
       y: 15
