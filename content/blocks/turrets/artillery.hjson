@@ -1,4 +1,4 @@
-type: ItemTurret
+etype: ItemTurret
 name: Artillery
 description: Fires shells at enemy targets over a massive range. Careful control is advised to prevent ammo from being wasted on large enemy structures.
 size: 3
