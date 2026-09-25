@@ -110,7 +110,7 @@ type: MultiEffect
 effects:[
 {type: WrapEffect
 effect: titanSmokeLarge
-color: acaabf}
+color: 418c43}
 {type: WrapEffect
 effect: titanExplosionLarge
 color: 00ff0d}
