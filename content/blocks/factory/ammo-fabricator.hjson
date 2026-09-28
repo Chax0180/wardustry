@@ -22,8 +22,8 @@ jsonRecipes: [
         name: af-standard-shell
         input: {
             items: [steel/5, aluminum/15, blast-powder/20]
-            liquids: [molten-steel/0.25]
-            power: 4
+            liquids: [molten-steel/0.4, water/0.8]
+            power: 8
         }
         output: {
             items: [standard-shell/1]
@@ -35,7 +35,8 @@ jsonRecipes: [
         name: af-smart-shell
         input: {
             items: [steel/5, aluminum/10, processor-mk2/5, blast-powder/20]
-            power: 6
+            liquids: [molten-steel/0.4, water/0.8]
+            power: 12
         }
         output: {
             items: [smart-shell/1]
@@ -46,8 +47,9 @@ jsonRecipes: [
     {
         name: af-nuclear-shell
         input: {
-            items: [steel/5, aluminum/10, processor-mk2/5, blast-powder/20]
-            power: 6
+            items: [steel/5, aluminum/10, processor-mk2/5, blast-powder/10, thorium/10]
+            liquids: [molten-steel/0.4, water/0.8]
+            power: 16
         }
         output: {
             items: [nuclear-shell/1]
@@ -71,40 +73,17 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -spinner1
-      x: 1.54
-      y: -2.8
-      spinSprite: true
-      rotateSpeed: 1
+      suffix: -middle
     }
     {
-      type: DrawRegion
-      suffix: -spinner2
-      x: 7
-      y: -2.8
-      spinSprite: true
-      rotateSpeed: 0.5
-    }
-    {
-      type: DrawPistons
-      suffix: -laserthing
-      sinMag: 3
-      sinScl: 1
-      sides: 1
-    }
-    {
-      type: DrawPistons
-      suffix: -printer
-      y: -6.6
-      angleOffset: 90
-      sinMag: 15
-      sinScl: 60
-      sides: 1
+      type: DrawLiquidTile
+      padding: 10
+      drawLiquid: molten-steel
     }
     {
       type: DrawDefault
     }
   ]
 }
-ambientSound: loopBuild
+ambientSound: loopMachineSpin
 ambientSoundVolume: 0.4
