@@ -1,0 +1,99 @@
+type: MultiCrafter
+  
+name: Assembler Mk.2
+description: A multi-purpose machine which can print and assemble certain components at a faster rate than a Mk.1 assembler. Can produce a wider range of parts.
+size: 5
+health: 2200
+itemCapacity: 20
+liquidcapacity: 40
+requirements:[
+steel/200
+concrete/120
+aluminum/500
+aluminum-truss/60
+silicon/400
+processor-mk2/30
+processor-mk1/60
+]
+category: crafting
+conductivePower: true
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: am2-aluminum-wire
+        input: {
+            items: [aluminum/10]
+            power: 1
+        }
+        output: {
+            items: [wire-spool/9]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+    {
+        name: am2-aluminum-wire
+        input: {
+            items: [aluminum/10]
+            power: 1
+        }
+        output: {
+            items: [wire-spool/9]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 2
+      drawLiquid: water
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner1
+      x: 1.54
+      y: -2.8
+      spinSprite: true
+      rotateSpeed: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner2
+      x: 7
+      y: -2.8
+      spinSprite: true
+      rotateSpeed: 0.5
+    }
+    {
+      type: DrawPistons
+      suffix: -laserthing
+      sinMag: 3
+      sinScl: 1
+      sides: 1
+    }
+    {
+      type: DrawPistons
+      suffix: -printer
+      y: -6.6
+      angleOffset: 90
+      sinMag: 15
+      sinScl: 60
+      sides: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: loopBuild
+ambientSoundVolume: 0.4
