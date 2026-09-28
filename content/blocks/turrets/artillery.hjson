@@ -106,15 +106,7 @@ type: ArtilleryBulletType
       hitColor: 00ff0d
 ammoMultiplier: 1
       hitEffect: {
-type: MultiEffect
-effects:[
-{type: WrapEffect
-effect: titanSmokeLarge
-color: 418c43}
-{type: WrapEffect
-effect: titanExplosionLarge
-color: 00ff0d}
-]
+type: thoriumReactorExplosion
 }
       homingPower: 0.12
       homingDelay: 5
