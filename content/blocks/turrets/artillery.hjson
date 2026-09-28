@@ -90,7 +90,7 @@ ammoMultiplier: 1
       homingDelay: 5
       despawnSound: explosion
 }
-nuclear-shell:{
+thorium-shell:{
 type: ArtilleryBulletType
       speed: 10
       splashDamage: 5650
