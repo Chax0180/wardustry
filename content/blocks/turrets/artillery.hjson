@@ -100,13 +100,13 @@ type: ArtilleryBulletType
       height: 15
       trailLength: 20
       trailWidth: 2.5
-      frontColor: 00ff0d
-      backColor: 418c43
-      trailColor: 12b51a
-      hitColor: 00ff0d
+      frontColor: ffc7f4
+      backColor: cb8ebf
+      trailColor: f9a3c7
+      hitColor: ffc7f4
 ammoMultiplier: 1
       hitEffect: {
-type: thoriumReactorExplosion
+type: ReactorExplosion
 }
       homingPower: 0.12
       homingDelay: 5
