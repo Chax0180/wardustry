@@ -39,7 +39,7 @@ outlineColor: 464f4f
 maxAmmo: 20
 drawer: {
   type: DrawTurret
-  basePrefix: concrete-
+  basePrefix: artillery-
   parts: [
     {
       type: RegionPart
