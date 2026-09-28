@@ -33,15 +33,80 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: am2-aluminum-wire
+        name: am2-aluminum-truss
         input: {
             items: [aluminum/10]
+            liquids: [water/0.4]
             power: 1
         }
         output: {
-            items: [wire-spool/9]
+            items: [aluminum-truss/6]
         }
         craftTime: 90
+        unlocked: true
+    }
+    {
+        name: am2-standard-magazine
+        input: {
+            items: [aluminum/3, steel/1, blast-powder/2]
+            liquids: [water/0.4]
+            power: 1
+        }
+        output: {
+            items: [standard-magazine/1]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+    {
+        name: am2-processor-mk1
+        input: {
+            items: [silicon/5, wire-spool/1]
+            liquids: [water/0.4]
+            power: 1
+        }
+        output: {
+            items: [processor-mk1/1]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+    {
+        name: am2-smart-magazine
+        input: {
+            items: [aluminum/3, steel/1, blast-powder/2, processor-mk1/1]
+            power: 1
+        }
+        output: {
+            items: [smart-magazine/1]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+    {
+        name: am2-processor-mk2
+        input: {
+            items: [silicon/10, wire-spool/2, aluminum/1]
+            liquids: [water/0.8]
+            power: 2
+        }
+        output: {
+            items: [processor-mk2/1]
+        }
+        craftTime: 180
+        unlocked: true
+    }
+    {
+        name: am2-processor-mk3
+        input: {
+            items: [silicon/10, processor-mk2/1, steel/2]
+            liquids: [water/1]
+            power: 4
+        }
+        output: {
+            items: [processor-mk3/1]
+        }
+        craftTime: 240
         unlocked: true
     }
 ]
