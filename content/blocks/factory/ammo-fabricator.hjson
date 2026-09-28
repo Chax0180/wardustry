@@ -45,14 +45,14 @@ jsonRecipes: [
         unlocked: true
     }
     {
-        name: af-nuclear-shell
+        name: af-thorium-shell
         input: {
             items: [steel/5, aluminum/10, processor-mk2/5, blast-powder/10, thorium/10]
             liquids: [molten-steel/0.4, water/0.8]
             power: 16
         }
         output: {
-            items: [nuclear-shell/1]
+            items: [thorium-shell/1]
         }
         craftTime: 600
         unlocked: true
