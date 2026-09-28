@@ -25,19 +25,19 @@ coolant: {
 }
 coolantMultiplier: 10
 
-reload: 5
+reload: 2
 shootSound: shootGunTurret
 shoot:{
-barrels: 2
+barrels: 4
 type: shootAlternate
 }
 researchCostMultiplier: 0.3
 velocityRnd: 0.091
 inaccuracy: 2
-recoils: 2
+recoils: 4
 
 outlineColor: 464f4f
-maxAmmo: 20
+maxAmmo: 30
 drawer: {
   type: DrawTurret
   basePrefix: concrete-
