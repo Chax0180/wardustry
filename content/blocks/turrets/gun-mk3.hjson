@@ -14,7 +14,6 @@ requirements: [
   aluminum-truss/20
   processor-mk3/10
   steel/64
-  
 ]
 range: 280
 coolant: {
@@ -72,7 +71,7 @@ drawer: {
       suffix: -barrel4
       mirror: false
       progress: recoil
-      recoilIndex: 4
+      recoilIndex: 0
       moveY: -2
     }
   ]
