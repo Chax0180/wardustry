@@ -1,0 +1,110 @@
+type: MultiCrafter
+  
+name: Heavy Munitions Fabricator
+description: A multi-purpose machine which produces and packs cartridges and assembles payloads for artillery shells and other large munitions.
+size: 3
+health: 1200
+itemCapacity: 40
+liquidcapacity: 40
+requirements:[
+steel/80
+concrete/96
+aluminum/200
+aluminum-truss/20
+processor-mk2/10
+]
+category: crafting
+conductivePower: true
+
+# The library specific variables
+jsonRecipes: [
+    {
+        name: af-standard-shell
+        input: {
+            items: [steel/5, aluminum/15, blast-powder/20]
+            liquids: [molten-steel/0.25]
+            power: 4
+        }
+        output: {
+            items: [standard-shell/1]
+        }
+        craftTime: 300
+        unlocked: true
+    }
+    {
+        name: af-smart-shell
+        input: {
+            items: [steel/5, aluminum/10, processor-mk2/5, blast-powder/20]
+            power: 6
+        }
+        output: {
+            items: [smart-shell/1]
+        }
+        craftTime: 600
+        unlocked: true
+    }
+    {
+        name: af-nuclear-shell
+        input: {
+            items: [steel/5, aluminum/10, processor-mk2/5, blast-powder/20]
+            power: 6
+        }
+        output: {
+            items: [nuclear-shell/1]
+        }
+        craftTime: 600
+        unlocked: true
+    }
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 2
+      drawLiquid: water
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner1
+      x: 1.54
+      y: -2.8
+      spinSprite: true
+      rotateSpeed: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner2
+      x: 7
+      y: -2.8
+      spinSprite: true
+      rotateSpeed: 0.5
+    }
+    {
+      type: DrawPistons
+      suffix: -laserthing
+      sinMag: 3
+      sinScl: 1
+      sides: 1
+    }
+    {
+      type: DrawPistons
+      suffix: -printer
+      y: -6.6
+      angleOffset: 90
+      sinMag: 15
+      sinScl: 60
+      sides: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: loopBuild
+ambientSoundVolume: 0.4
