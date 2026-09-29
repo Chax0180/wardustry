@@ -37,7 +37,7 @@ loopSoundVolume: 0.6
 consumes: {
   power: 24
 liquids:[
-    oil/0.4
+    oil-petroleum-gas/0.4
 ]
 }
 rotate: false
