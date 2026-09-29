@@ -1,12 +1,12 @@
 type: ContinuousTurret
-name: Melter Turret
-description: Fires a jet of superheated gas at enemy targets.
+name: Fusion Torch
+description: Fires a jet of superheated plasma at enemy targets.
 size: 3
 health: 3500
 armor: 6
 category: turret
   
-research: gun-mk2
+research: gun-mk3
 requirements: [
 
 ]
