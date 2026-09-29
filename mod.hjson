@@ -10,4 +10,5 @@ hidden: false
 hideBrowser: false
 dependencies:[
 multicrafter
+oil
 ]
