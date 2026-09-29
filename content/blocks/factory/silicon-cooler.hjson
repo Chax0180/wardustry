@@ -1,6 +1,7 @@
 type: genericCrafter
 name: Silicon Cooling Mold
 description: Cools down molten silicon into boules.
+category: crafting
 size: 1
 health: 300
 armor: 2
