@@ -34,7 +34,6 @@ jsonRecipes: [
         name: sfh-steel
         input: {
             items: [iron/3, coal/1]
-            liquids: [oil/0.4]
             power: 2
         }
         output: {
