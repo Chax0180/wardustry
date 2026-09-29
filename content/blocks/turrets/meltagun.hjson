@@ -17,7 +17,7 @@ shootType: {
   type: ContinuousFlameBulletType
   length: 180
   damage: 24
-  width: 4
+  width: 6
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
