@@ -16,8 +16,8 @@ outlineColor: 464f4f
 shootType: {
   type: ContinuousFlameBulletType
   length: 180
-  damage: 24
-  width: 60
+  damage: 60
+  width: 6
 collides: true
 collidesTiles: true
 collidesAir: true
