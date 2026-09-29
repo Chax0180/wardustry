@@ -23,11 +23,12 @@ shootType: {
   incendSpread: 0
   status: melting
   statusDuration: 90
-  colors: [ffad29, ff795e, 86469c, 7b6fa3, ffffff]
+  colors: [ba6622, ffad29, bd48e8, ab93ed, adccf7]
   drawFlare: false
   shake: 0.1
 }
-  
+
+shootY: -2
 range: 180
 shootSound: none
 loopSound: beamLustre
