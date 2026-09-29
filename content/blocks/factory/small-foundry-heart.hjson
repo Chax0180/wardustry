@@ -37,7 +37,7 @@ jsonRecipes: [
             power: 2
         }
         output: {
-            liquids: [molten-steel/0.2]
+            liquids: [molten-steel/4]
         }
         craftTime: 60
         unlocked: true
@@ -49,7 +49,7 @@ jsonRecipes: [
             power: 2
         }
         output: {
-            liquids: [molten-silicon/0.2]
+            liquids: [molten-silicon/4]
         }
         craftTime: 90
         unlocked: true
