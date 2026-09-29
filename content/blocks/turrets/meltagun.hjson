@@ -17,7 +17,7 @@ shootType: {
   type: ContinuousFlameBulletType
   length: 180
   damage: 24
-  width: 6
+  width: 60
 collides: true
 collidesTiles: true
 collidesAir: true
