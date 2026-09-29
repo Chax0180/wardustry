@@ -28,7 +28,7 @@ shootType: {
   shake: 0.1
 }
 
-shootY: -2
+shootY: -0.25
 range: 180
 shootSound: none
 loopSound: beamLustre
