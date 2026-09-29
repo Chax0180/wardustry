@@ -1,8 +1,7 @@
 type: ContinuousTurret
-name: Tralux
-description: Melter Turret
+name: Melter Turret
+description: Fires a jet of superheated gas at enemy targets.
 size: 3
-  
 category: turret
   
 research: gun-mk2
@@ -24,7 +23,7 @@ shootType: {
   incendSpread: 0
   status: melting
   statusDuration: 90
-  colors: [ffffff, 1900ff, 86469c, ff795e, ffad29]
+  colors: [ffad29, ff795e, 86469c, 1900ff, ffffff]
   shake: 0.1
 }
   
