@@ -2,6 +2,8 @@ type: ContinuousTurret
 name: Melter Turret
 description: Fires a jet of superheated gas at enemy targets.
 size: 3
+health: 3500
+armor: 6
 category: turret
   
 research: gun-mk2
@@ -16,7 +18,7 @@ outlineColor: 464f4f
 shootType: {
   type: ContinuousFlameBulletType
   length: 180
-  damage: 60
+  damage: 235
   width: 6
 collides: true
 collidesTiles: true
@@ -28,8 +30,6 @@ collidesGround: true
   drawFlare: false
   shake: 0.1
 }
-
-shootY: -0.25
 range: 180
 shootSound: none
 loopSound: beamLustre
