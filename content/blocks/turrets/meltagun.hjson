@@ -23,7 +23,7 @@ shootType: {
   incendSpread: 0
   status: melting
   statusDuration: 90
-  colors: [ffad29, ff795e, 86469c, 1900ff, ffffff]
+  colors: [ffad29, ff795e, 86469c, 7b6fa3, ffffff]
   drawFlare: false
   shake: 0.1
 }
