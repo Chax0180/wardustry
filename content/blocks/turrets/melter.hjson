@@ -1,0 +1,43 @@
+type: ContinuousTurret
+name: Tralux
+description: Melter Turret
+size: 3
+  
+category: turret
+  
+research: gun-mk2
+requirements: [
+
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: concrete-
+}
+outlineColor: 464f4f
+shootType: {
+  type: ContinuousFlameBulletType
+  length: 180
+  damage: 24
+  width: 4
+  incendChance: 0
+  incendAmount: 0
+  incendSpread: 0
+  status: melting
+  statusDuration: 90
+  colors: [ffffff, 1900ff, 86469c, ff795e, ffad29]
+  shake: 0.1
+
+      }
+    }
+  
+range: 180
+shootSound: none
+loopSound: beamLustre
+loopSoundVolume: 0.6
+consumes: {
+  power: 6
+liquids:[
+    oil
+]
+}
+rotate: false
