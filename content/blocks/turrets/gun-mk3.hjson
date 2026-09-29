@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Gun Mk.3
-description: Fires standard bullets at enemy targets and protects allied structures from damage. Fires faster than a mk.2 gun turret.
+description: Fires standard bullets at enemy targets and protects allied structures from damage. Fires at a faster rate and with greater power than a Mk.2 gun turret.
 size: 3
 health: 3500
 armor: 6
@@ -15,7 +15,7 @@ requirements: [
   processor-mk3/10
   steel/64
 ]
-range: 280
+range: 375
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -79,9 +79,9 @@ drawer: {
 ammoTypes: {
 standard-magazine:{
 type: BasicBulletType
-      speed: 10
+      speed: 15
       lifetime: 30
-      damage: 22
+      damage: 30
       trailChance: 1
       width: 7
       height: 9
@@ -96,10 +96,10 @@ ammoMultiplier: 10
 }
 ap-magazine:{
 type: BasicBulletType
-      speed: 10
-      lifetime: 30
+      speed: 15
+      lifetime: 40
       damage: 30
-      armorMultiplier: 0.6
+      armorMultiplier: 0.4
       trailChance: 1
       width: 7
       height: 9
@@ -114,9 +114,9 @@ ammoMultiplier: 10
 }
 smart-magazine:{
 type: BasicBulletType
-      speed: 7.5
+      speed: 10
       lifetime: 30
-      damage: 26
+      damage: 35
       trailChance: 1
       width: 7
       height: 9
