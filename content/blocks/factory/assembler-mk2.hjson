@@ -84,6 +84,18 @@ jsonRecipes: [
         unlocked: true
     }
     {
+        name: am2-ap-magazine
+        input: {
+            items: [aluminum/3, steel/1, blast-powder/2, thorium/1]
+            power: 2
+        }
+        output: {
+            items: [smart-magazine/1]
+        }
+        craftTime: 90
+        unlocked: true
+    }
+    {
         name: am2-processor-mk2
         input: {
             items: [silicon/10, wire-spool/2, aluminum/1]
