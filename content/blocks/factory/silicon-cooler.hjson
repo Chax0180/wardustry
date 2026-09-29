@@ -7,7 +7,7 @@ health: 300
 armor: 2
 outputItem: silicon/1
 consumes: {
-  liquid: molten-silicon/0.05
+  liquid: molten-silicon/1
 }
 craftTime: 120
 requirements:[
