@@ -18,9 +18,10 @@ shootType: {
   length: 180
   damage: 24
   width: 6
-  incendChance: 0
-  incendAmount: 0
-  incendSpread: 0
+collides: true
+collidesTiles: true
+collidesAir: true
+collidesGround: true
   status: melting
   statusDuration: 90
   colors: [ba6622, ffad29, bd48e8, ab93ed, 87afe8]
@@ -34,7 +35,7 @@ shootSound: none
 loopSound: beamLustre
 loopSoundVolume: 0.6
 consumes: {
-  power: 6
+  power: 24
 liquids:[
     oil/0.4
 ]
