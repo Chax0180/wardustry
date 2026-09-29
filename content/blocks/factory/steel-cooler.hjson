@@ -9,7 +9,7 @@ liquidCapacity: 10
 
 outputItem: steel/1
 consumes: {
-  liquid: molten-steel/0.05
+  liquid: molten-steel/1
 }
 craftTime: 150
 requirements:[
