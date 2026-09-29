@@ -26,9 +26,7 @@ shootType: {
   statusDuration: 90
   colors: [ffffff, 1900ff, 86469c, ff795e, ffad29]
   shake: 0.1
-
-      }
-    }
+}
   
 range: 180
 shootSound: none
