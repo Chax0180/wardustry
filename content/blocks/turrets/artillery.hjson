@@ -94,7 +94,7 @@ thorium-shell:{
 type: ArtilleryBulletType
       speed: 10
       splashDamage: 5650
-      splashDamageRadius: 80
+      splashDamageRadius: 120
       trailChance: 1
       width: 9
       height: 15
