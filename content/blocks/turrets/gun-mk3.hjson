@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Gun Turret Mk.3
+name: Gun Mk.3
 description: Fires standard bullets at enemy targets and protects allied structures from damage. Fires faster than a mk.2 gun turret.
 size: 3
 health: 3500
