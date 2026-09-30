@@ -69,7 +69,7 @@ drawer: {
     {
       type: DrawLiquidTile
       padding: 2
-      drawLiquid: water
+      drawLiquid: molten-steel
     }
     {
       type: DrawRegion
@@ -78,7 +78,7 @@ drawer: {
     {
       type: DrawLiquidTile
       padding: 10
-      drawLiquid: molten-steel
+      drawLiquid: water
     }
     {
       type: DrawDefault
