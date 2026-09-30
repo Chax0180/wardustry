@@ -8,6 +8,6 @@ requirements: [
 ]
 health: 200
 junctionReplacement: liquid-router
-bridgeReplacement: liquid-bridge
+bridgeReplacement: conduit-bridge
 underBullets: true
 liquidCapacity: 20
