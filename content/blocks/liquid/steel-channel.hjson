@@ -1,0 +1,13 @@
+type: Conduit
+name: Channel
+description: Moves liquids around.
+category: liquid
+research: core-artifice
+requirements: [
+  steel/1
+]
+health: 200
+junctionReplacement: liquid-router
+bridgeReplacement: liquid-bridge
+underBullets: true
+liquidCapacity: 20
