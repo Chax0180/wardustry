@@ -11,4 +11,4 @@ junctionReplacement: liquid-router
 bridgeReplacement: bridge-conduit
 underBullets: true
 liquidCapacity: 20
-bottomColor: 23214a
+botColor: 23214a
