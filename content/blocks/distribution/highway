@@ -1,7 +1,7 @@
-type: ItemBridge
+type: DirectionBridge
 name: Bulk Highway
 description: Acts as a massive bridge for transporting items in a straight line over large distances.
-health: 1350
+health: 1800
 size: 3
 requirements: [
   aluminum/220
