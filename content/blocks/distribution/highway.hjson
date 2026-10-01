@@ -1,0 +1,14 @@
+type: DuctBridge
+name: Bulk Highway
+description: Acts as a massive bridge for transporting items in a straight line over large distances.
+health: 1350
+size: 3
+requirements: [
+  aluminum/220
+  steel/50
+  processor-mk1/5
+] 
+category: distribution
+research: core-artifice
+range: 600
+speed: 16
