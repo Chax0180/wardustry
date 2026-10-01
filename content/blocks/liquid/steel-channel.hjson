@@ -5,6 +5,7 @@ category: liquid
 research: core-artifice
 requirements: [
   steel/1
+  aluminum/1
 ]
 health: 200
 junctionReplacement: channel-junction
