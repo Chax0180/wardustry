@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Channel Junction
+description: Used for crossing two channels.
+solid: false
+category: liquid
+research: steel-channel
+requirements: [
+  steel/4
+  aluminum/6
+]
+researchCostMultiplier: 0.5
