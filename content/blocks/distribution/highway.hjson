@@ -1,4 +1,4 @@
-type: Bridge
+type: DirectionBridge
 name: Bulk Highway
 description: Acts as a massive bridge for transporting items in a straight line over large distances.
 health: 1350
