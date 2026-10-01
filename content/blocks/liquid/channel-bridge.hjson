@@ -9,6 +9,6 @@ category: liquid
 research: channel-junction
 requirements: [
   steel/8
-  concrete/12
+  aluminum/6
 ]
 liquidCapacity: 20
