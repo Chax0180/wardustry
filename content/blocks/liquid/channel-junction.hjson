@@ -1,6 +1,6 @@
 type: LiquidJunction
 name: Channel Junction
-description: Used for crossing two liquid channels while keeping their contents separated.
+description: Used for crossing two liquid channels while keeping their contents separate.
 solid: false
 category: liquid
 research: steel-channel
