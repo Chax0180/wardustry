@@ -7,7 +7,7 @@ requirements: [
   steel/1
 ]
 health: 200
-junctionReplacement: liquid-router
+junctionReplacement: channel-junction
 bridgeReplacement: bridge-conduit
 underBullets: true
 liquidCapacity: 20
