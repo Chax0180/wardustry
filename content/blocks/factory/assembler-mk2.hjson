@@ -90,7 +90,7 @@ jsonRecipes: [
             power: 2
         }
         output: {
-            items: [smart-magazine/1]
+            items: [ap-magazine/1]
         }
         craftTime: 90
         unlocked: true
